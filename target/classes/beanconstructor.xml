@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  beans  PUBLIC  "-//SPRING/DTD  BEAN/EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="helloBean" class="com.spring.constructor.HelloBean">
+        <constructor-arg index="0"><value>HAHA</value></constructor-arg>
+        <constructor-arg index="1"><value>lala</value></constructor-arg>
+    </bean>
+</beans>
